@@ -15,4 +15,4 @@ phases:
       - apt-get update
       - apt-get install -y arachni
 
-    - arachni http://tu-aplicacion.com --report-save-path=arachni_report.afr
+    - arachni https://git-codecommit.us-east-1.amazonaws.com/v1/repos/Proyecto_Final_Final --report-save-path=arachni_report.afr
